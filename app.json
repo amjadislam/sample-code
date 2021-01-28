@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "PrayerTime",
+    "slug": "PrayerTime",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash_bg.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2DAA37",
+      "resizeMode": "cover"
+
+    },
+    "notification": {
+      "icon": "./assets/icon.png"
+    },
+
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rapidzz.prayertime"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCLV8JoB0-QiyC0cNPhiO00L4FrWMxyXuE"
+        }
+      },
+      "package": "com.rapidzz.prayertime",
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
